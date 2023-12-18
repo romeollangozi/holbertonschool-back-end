@@ -25,6 +25,6 @@ if __name__ == "__main__":
     completed_title = [title['title'] for title in completed_tasks]
 
     print(f"Employee {user_name} is done", end="")
-    print(f" with tests({len(completed_tasks)}/{nr_tasks}):")
+    print(f" with tasks({len(completed_tasks)}/{nr_tasks}):")
     for title in completed_title:
         print(f"\t {title}")
