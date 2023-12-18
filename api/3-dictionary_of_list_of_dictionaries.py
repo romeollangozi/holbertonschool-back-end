@@ -21,7 +21,6 @@ if __name__ == "__main__":
     for user in user_data:
         user_todos = []
         for todos in all_todos:
-            print(f"{todos['userId']} == {user['id']}")
             if todos['userId'] == user['id']:
                 user_todos.append({"username": user['username'],
                                    "task": todos['title'],
