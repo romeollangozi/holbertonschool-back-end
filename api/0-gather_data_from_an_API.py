@@ -4,9 +4,10 @@ Model to make a request to an
 API and retrieve data
 """
 
+
+import json
 import requests
 from sys import argv
-import json
 
 
 if __name__ == "__main__":
